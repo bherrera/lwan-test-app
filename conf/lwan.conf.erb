@@ -4,7 +4,7 @@ reuse_port = false
 expires = 1M 1w
 threads = 0
 
-listener *: <%= ENV["PORT"] %> {
+listener *:<%= ENV["PORT"] %> {
     prefix /hello {
             handler = hello_world
     }
