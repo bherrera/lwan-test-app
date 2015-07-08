@@ -1,2 +1,2 @@
-https://github.com/ddollar/heroku-buildpack-apt
-https://github.com/bherrera/heroku-buildpack-lwan#luajit
+https://github.com/ddollar/heroku-buildpack-apt.git
+https://github.com/bherrera/heroku-buildpack-lwan.git#luajit
