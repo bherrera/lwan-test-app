@@ -7,7 +7,7 @@ Running [lwan.ws](https://lwan.ws) test application at Heroku using [heroku-buil
     Aptfile   README.md conf      test.lua  wwwroot
 
     ./conf:
-    [lwan.conf.erb](lwan.conf.erb)
+    lwan.conf.erb
 
     ./wwwroot:
     100.html   icons      index.html zero
@@ -26,3 +26,4 @@ Running [lwan.ws](https://lwan.ws) test application at Heroku using [heroku-buil
     $heroku create --buildpack [https://github.com/ddollar/heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi)
 
     $ git push heroku master
+
